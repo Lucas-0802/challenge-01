@@ -1,0 +1,19 @@
+.listEmpty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 50px 0;
+  border-top:  1px solid var(--gray-400);
+}
+
+.listEmpty strong {
+  color: var(--gray-300);
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.listEmpty span {
+  color: var(--gray-300);
+}

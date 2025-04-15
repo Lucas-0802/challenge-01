@@ -1,0 +1,33 @@
+.header {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header span {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.container {
+  width: 7.875rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  width: 22px;
+  height: 36px;
+}
+
+.header .title :nth-child(2) {
+  color: var(--blue);
+}
+
+.header :last-child {
+  color: var(--purple-dark);
+}
